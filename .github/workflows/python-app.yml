@@ -40,6 +40,5 @@ jobs:
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_app_name: "reto1cyber"
         heroku_email:  "nfpzmino@gmail.com"
-        buildpack: 'heroku/python'
         usedocker: false
 
