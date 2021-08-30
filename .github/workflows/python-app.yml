@@ -36,7 +36,7 @@ jobs:
         pytest
     - uses: akhileshns/heroku-deploy@v3.12.12
       with:
-        heroku_api_key: ${{secrets.HEROKU_SECRET}}
+        heroku_api_key: ${{secrets.HEROKU}}
         heroku_app_name: "master-cs-yahoo-finance-disney"
         heroku_email:  "nfpazmino@gmail.com"
         buildpack: 'heroku/python'
