@@ -1,0 +1,5 @@
+flask 
+render_template
+requests
+bs4
+BeautifulSoup
