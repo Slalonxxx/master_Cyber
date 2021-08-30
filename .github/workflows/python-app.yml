@@ -33,12 +33,5 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest
-    - uses: akhileshns/heroku-deploy@v3.12.12
-      with:
-        heroku_api_key: ${{secrets.HEROKU}}
-        heroku_app_name: "master-cs-yahoo-finance-disney"
-        heroku_email:  "nfpazmino@gmail.com"
-        buildpack: 'heroku/python'
-        usedocker: false
+        app.py
         
