@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Valor Disney:"+ srt(precio.txt)
+    return "Valor Disney:"+ str(precio.txt)
 
 
 if __name__ == "__main__":
