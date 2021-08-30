@@ -34,11 +34,3 @@ jobs:
    #- name: Test with pytest
      # run: |
      #  pytest
-        
-    - uses: akhileshns/heroku-deploy@v3.12.12
-      with:
-        heroku_api_key: ${{secrets.HEROKU}}
-        heroku_app_name: "heroku-disneyreto11"
-        heroku_email:  "nfpazmino@gmail.com"
-        buildpack: 'heroku/python'
-        usedocker: false
