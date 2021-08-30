@@ -1,5 +1,5 @@
 from flask import Flask
-
+import requests
 from bs4 import BeautifulSoup as b
 url='https://finance.yahoo.com/quote/DIS?p=DIS&.tsrc=fin-srch'
 html= requests.get(url)
