@@ -20,7 +20,7 @@ def home():
 		'rango': str(rango.text) 
 	}
 	
-	return render_template('reto1.html', data=data)
+	return 'Precio Disney' + str(precio.text)
    
 if __name__ == '__main__':
 	app.run()
